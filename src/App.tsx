@@ -3,9 +3,9 @@ import React from 'react';
 import PageHome from './pages/Home';
 
 const darkTheme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
+  // palette: {
+  //   mode: 'dark'
+  // }
 });
 
 const App: React.FunctionComponent = () => {

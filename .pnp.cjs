@@ -26,6 +26,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@emoji-mart/data", "npm:1.2.1"],\
+          ["@emoji-mart/react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:1.1.1"],\
           ["@emotion/react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:11.11.4"],\
           ["@emotion/styled", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:11.11.5"],\
           ["@eslint/js", "npm:9.3.0"],\
@@ -42,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.10.0"],\
           ["@typescript-eslint/parser", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.10.0"],\
+          ["emoji-mart", "npm:5.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.34.1"],\
           ["eslint-plugin-unused-imports", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:3.2.0"],\
@@ -3509,6 +3512,41 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/postcss-selector-parser",\
           "postcss-selector-parser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@emoji-mart/data", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@emoji-mart-data-npm-1.2.1-cc01c13801-10c0.zip/node_modules/@emoji-mart/data/",\
+        "packageDependencies": [\
+          ["@emoji-mart/data", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@emoji-mart/react", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@emoji-mart-react-npm-1.1.1-9ecb011a36-10c0.zip/node_modules/@emoji-mart/react/",\
+        "packageDependencies": [\
+          ["@emoji-mart/react", "npm:1.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:1.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/@emoji-mart-react-virtual-0183083094/4/.yarn/berry/cache/@emoji-mart-react-npm-1.1.1-9ecb011a36-10c0.zip/node_modules/@emoji-mart/react/",\
+        "packageDependencies": [\
+          ["@emoji-mart/react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:1.1.1"],\
+          ["@types/emoji-mart", null],\
+          ["@types/react", "npm:18.3.2"],\
+          ["emoji-mart", "npm:5.6.0"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/emoji-mart",\
+          "@types/react",\
+          "emoji-mart",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8992,6 +9030,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/emittery-npm-0.8.1-9771f0f260-10c0.zip/node_modules/emittery/",\
         "packageDependencies": [\
           ["emittery", "npm:0.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["emoji-mart", [\
+      ["npm:5.6.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/emoji-mart-npm-5.6.0-c8f9a8b4e4-10c0.zip/node_modules/emoji-mart/",\
+        "packageDependencies": [\
+          ["emoji-mart", "npm:5.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -19372,6 +19419,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["zealy-test", "workspace:."],\
+          ["@emoji-mart/data", "npm:1.2.1"],\
+          ["@emoji-mart/react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:1.1.1"],\
           ["@emotion/react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:11.11.4"],\
           ["@emotion/styled", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:11.11.5"],\
           ["@eslint/js", "npm:9.3.0"],\
@@ -19388,6 +19437,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.10.0"],\
           ["@typescript-eslint/parser", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.10.0"],\
+          ["emoji-mart", "npm:5.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:7.34.1"],\
           ["eslint-plugin-unused-imports", "virtual:d1e4204480e0dba051e944e3db151b9596328a6c055f951a632c087b28b89397527637e0b4e1ebcaf4bb5f5ef699236a1ac52d8edb5a0c747930a27dba07861a#npm:3.2.0"],\

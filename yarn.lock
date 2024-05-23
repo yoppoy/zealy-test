@@ -1829,6 +1829,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emoji-mart/data@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@emoji-mart/data@npm:1.2.1"
+  checksum: 10c0/6784b97bf49a0d3ff110d8447bbd3b0449fcbc497294be3d1c3a6cb1609308776895c7520200be604cbecaa5e172c76927e47f34419c72ba8a76fd4e5a53674b
+  languageName: node
+  linkType: hard
+
+"@emoji-mart/react@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@emoji-mart/react@npm:1.1.1"
+  peerDependencies:
+    emoji-mart: ^5.2
+    react: ^16.8 || ^17 || ^18
+  checksum: 10c0/88a9c8c24bbc5695f0ed2458734c9982c965a16db1999bc731c7cce77f9bf228f1871e899744f9a3f9fdd36a11db7ad6c0e049d710cb91c66c69a2cd4d2ee40a
+  languageName: node
+  linkType: hard
+
 "@emotion/babel-plugin@npm:^11.11.0":
   version: 11.11.0
   resolution: "@emotion/babel-plugin@npm:11.11.0"
@@ -6097,6 +6114,13 @@ __metadata:
   version: 0.8.1
   resolution: "emittery@npm:0.8.1"
   checksum: 10c0/1302868b6e258909964339f28569b97658d75c1030271024ac2f50f84957eab6a6a04278861a9c1d47131b9dfb50f25a5d017750d1c99cd86763e19a93b838bf
+  languageName: node
+  linkType: hard
+
+"emoji-mart@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "emoji-mart@npm:5.6.0"
+  checksum: 10c0/23e68ab10984f101b696d8f8e103e553ffa8e4d644e9a315190a9657903f71b833db09aac51b05de20f33bb9eef5bc1425eecdb2437042b25aff2dad0231f029
   languageName: node
   linkType: hard
 
@@ -14426,6 +14450,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "zealy-test@workspace:."
   dependencies:
+    "@emoji-mart/data": "npm:^1.2.1"
+    "@emoji-mart/react": "npm:^1.1.1"
     "@emotion/react": "npm:^11.11.4"
     "@emotion/styled": "npm:^11.11.5"
     "@eslint/js": "npm:^9.3.0"
@@ -14442,6 +14468,7 @@ __metadata:
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.10.0"
     "@typescript-eslint/parser": "npm:^7.10.0"
+    emoji-mart: "npm:^5.6.0"
     eslint: "npm:8.x"
     eslint-plugin-react: "npm:^7.34.1"
     eslint-plugin-unused-imports: "npm:^3.2.0"
